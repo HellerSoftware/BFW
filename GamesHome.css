@@ -1,0 +1,86 @@
+.menu-main-pages{
+    position: fixed;
+}
+
+.space--{
+    padding: 8px;
+}
+.pg{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btng{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+
+.btng:hover{
+    opacity: .7;
+    background: #ffffff;
+    color: #262626;
+    border: 1px solid #000000
+}
+
+.topg{
+    text-align: right;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+
+.containerg{
+    text-align: right;
+}
+
+.ptg{
+    font-size: 20px;
+    text-align: left;
+    float: left;
+}
+
+/*Banner cards*/
+.cards-banner-info{
+    width: 100%;
+    height: 350px;
+    background: #1b1919d8;
+    margin-bottom: 40px;
+}
+
+.cards-banner-info .content{
+    width: 40%;
+    padding: 10px 5px 5px 30px;
+    color: #ffffff;
+}
+
+.cards-banner-info p,
+.cards-banner-info h2{
+    margin: 10px 0 20px 0;
+}
+
+.videosYT{
+    text-align: center;
+}
+
+.publications{
+    background: #2725257c;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.publication{
+    padding: 10px;
+    margin: 35px;
+    background: #2e28286c;
+}

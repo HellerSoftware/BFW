@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arbutus Slab', serif;
+    font-size: 16px;
+    background-color: #27c1a6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23be22d0' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-1{
+    width: 90%;
+    margin: auto;
+}
+
+/*Navegation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+
+.nav-brand{
+    width: 50px;
+}
+
+/*NAV left*/
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a:hover{
+    color: #0c1815ce;
+}
+
+.nav-menu{
+    background: #464040be;
+    border-radius: 10px;
+    right: 100px;
+    position: fixed;
+}
+
+
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 3rem;
+    display: none;
+}
+
+/*Showcase*/
+hr{
+    margin: 10px 0;
+}
+
+.showcase{
+    width: 100%;
+    height: 550px;
+    background: url('./components/imgs/page/ShowcaseIMG1.png') no-repeat center center/cover;
+    padding: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+
+.btn:hover{
+    opacity: .7;
+    background: #ffffff;
+    color: #262626;
+    border: 1px solid #000000
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+
+/*INFO CARDS*/
+.info-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.info-cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.info-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.info-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.info-cards a:hover{
+    opacity: .9;
+}
+
+/*INFO CARDS 2*/
+.info-cards2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.info-cards2 img{
+    width: 100%;
+    height: 180px;
+}
+
+.info-cards2 h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.info-cards2 a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.info-cards2 a:hover{
+    opacity: .9;
+}
+
+/*Banner cards*/
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background: url('./components/imgs/page/BannerIMG1.png') no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-one .content{
+    width: 40%;
+    padding: 10px 5px 5px 30px;
+    color: #ffffff;
+}
+
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+}
+
+/*Banner cards 2*/
+.cards-banner-two{
+    width: 100%;
+    height: 350px;
+    background: url('./components/imgs/page/BannerIMG2.png') no-repeat center center/cover;
+}
+
+.cards-banner-two .content{
+    width: 50%;
+    padding: 100px 0 0 30px;
+    color: #ffffff;
+}
+
+/*SOCIAL*/
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+    font-size: 3rem;
+}
+
+.end-page{
+    padding: 10px;
+    background-color: #3d3939f3;
+}
+
+.end-page .btne:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nm1{
+    display: none;
+}
+
+@media (max-width: 1150px){
+    .info-cards,
+    .info-cards2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nmc3{
+        display: none;
+    }
+}
+
+@media (max-width: 950px){
+    .info-cards,
+    .info-cards2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .nmc3{
+        display: block;
+    }
+}
+
+@media (max-width: 700px){
+    .menu-btn{
+        display: block;
+        position: fixed;
+        transition: transform .5s ease-in-out;
+    }
+
+    .menu-btn-rotate{
+        color: lightcoral;
+        transition-delay: 0.1s;
+        transform: rotate(-90deg);  
+    }
+    
+    .menu-text{
+        font-size: 20px;
+    }
+
+    .fs-animation1{
+        width: 175px;
+    }
+
+    .fs-animation2{
+        width: 175px;
+    }
+
+    .fs-animation3{
+        width: 175px;
+    }
+
+    .fs-animation4{
+        width: 175px;
+    }
+
+    .fs-animation5{
+        width: 175px;
+    }
+
+    .fs-animation-done{
+        transition-delay: 0.8s;
+    }
+
+    .move-right{
+        transition: transform .5s ease-in-out;
+        transition-delay: 0.4s;
+        transform: translateX(70px);
+    }
+
+    .nav-main ul.nav-menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        transform: translateX(-700px);
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 40px;
+    }
+
+    .cards-banner-one{
+        background: url('./components/imgs/page/EpicGames.jpg') no-repeat center center/cover;
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+        width: 80%;
+    }
+
+    .sm1{
+        display: none;
+    }
+
+    .nm1{
+        display: block;
+    }
+}
+
+.videosYT div iframe{
+    width: 365px;
+}
+
+@media (max-width: 500px){
+    .info-cards,
+    .info-cards2{
+        grid-template-columns: 1fr;
+    }
+
+    .info-cards img,
+    .info-cards2 img{
+        height: 250px;
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+        width: 100%;
+        padding: 60px 20px;
+    }
+}
